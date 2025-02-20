@@ -17,7 +17,7 @@ Ensure you have the following installed:
 1. **Clone the repository on your local machine:**
    ```sh
    git clone <repository_url>
-   cd flask-hello-world
+   cd ~~flask-hello-world~~ flask-101-tatianaeng
    ```
 
 2. **Create a virtual environment (optional but recommended):**
@@ -73,6 +73,7 @@ Modify the page by adding a base.html file to the repository to set the look and
   
 1. Create a directory within the respository at the root level called 'templates'
 2. In the templates directory create a file called base.html and copy and paste the below contents to the html file.
+(This can be done a few ways, such as in the Terminal using vi <filename> and the related commands or by opening up VS Code > File > Open Folder and pasting the content below into the appropriate file.)
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -132,3 +133,5 @@ if __name__ == '__main__':
    ```
 ---
 Happy coding! 🚀
+
+*Remember to push changes.  This is what will be graded.
